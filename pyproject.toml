@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "gym-aloha"
-version = "0.1.1"
+version = "0.1.2"
 description = "A gym environment for ALOHA"
 authors = [
     "Rémi Cadène <re.cadene@gmail.com>",
@@ -22,8 +22,8 @@ packages = [{include = "gym_aloha"}]
 
 
 [tool.poetry.dependencies]
-python = "^3.10"
-mujoco = "^2.3.7"
+python = "^3.12"
+mujoco = "^3.3.6"
 gymnasium = ">=0.29.1"
 dm-control = ">=1.0.14"
 imageio = {extras = ["ffmpeg"], version = ">=2.34.0"}
